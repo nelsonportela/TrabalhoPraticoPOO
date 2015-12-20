@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Caracteristicas">
+      <UniqueIdentifier>{b6aa6ca5-3669-4cee-b177-e115161975ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unidades">
+      <UniqueIdentifier>{b0554cfd-135c-4440-911f-84f38e9a14ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Salas">
+      <UniqueIdentifier>{86becc37-0f1b-4d2d-82c6-866e09f4363c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unidades\Tripulante">
+      <UniqueIdentifier>{4f785252-0489-46dd-8987-6cd77430bb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unidades\Inimigo">
+      <UniqueIdentifier>{7aa6218b-46b9-4fb3-bd2e-e500b9c5da73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unidades\Xenomorfo">
+      <UniqueIdentifier>{61df39f0-10ba-4751-8ccb-e5155ed94207}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Consola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Caracteristica.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Respira.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Flamejante.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Toxico.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Unidade.h">
+      <Filter>Header Files\Unidades</Filter>
+    </ClInclude>
+    <ClInclude Include="AlojamentoCapitao.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoReparador.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="Beliches.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="ControloEscudo.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="Enfermaria.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="OficinaRobotica.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="Ponte.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="Propulsor.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="RaioLaser.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="Sala.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="SalaArmas.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="SalaMaquinas.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="SistemaSegurancaInterna.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="SuporteVida.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
+    <ClInclude Include="Armado.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Casulo_c.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Combatente.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Exoesqueleto.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Hipnotizador.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Indeciso.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Inimigo_c.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Misterioso.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="MutatisMutandis.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Operador.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Regenerador.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Reparador.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Robótico.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Xenomorfo_c.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Tripulacao.h">
+      <Filter>Header Files\Caracteristicas</Filter>
+    </ClInclude>
+    <ClInclude Include="Blob.h">
+      <Filter>Header Files\Unidades\Xenomorfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Capitao.h">
+      <Filter>Header Files\Unidades\Tripulante</Filter>
+    </ClInclude>
+    <ClInclude Include="Casulo.h">
+      <Filter>Header Files\Unidades\Xenomorfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Geigermorfo.h">
+      <Filter>Header Files\Unidades\Xenomorfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Inimigo.h">
+      <Filter>Header Files\Unidades\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="Membro.h">
+      <Filter>Header Files\Unidades\Tripulante</Filter>
+    </ClInclude>
+    <ClInclude Include="Mxyzypykwi.h">
+      <Filter>Header Files\Unidades\Xenomorfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Pirata.h">
+      <Filter>Header Files\Unidades\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>Header Files\Unidades\Tripulante</Filter>
+    </ClInclude>
+    <ClInclude Include="Tripulante.h">
+      <Filter>Header Files\Unidades\Tripulante</Filter>
+    </ClInclude>
+    <ClInclude Include="Xenomorfo.h">
+      <Filter>Header Files\Unidades\Xenomorfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sala.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Consola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Caracteristica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

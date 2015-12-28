@@ -3,8 +3,11 @@
 
 #include "Tripulante.h"
 
-class Membro:Tripulante {
+class Membro:public Tripulante {
 
+public:
+	
+	Membro() {};
 
 };
 

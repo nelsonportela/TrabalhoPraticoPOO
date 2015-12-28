@@ -10,12 +10,9 @@ using namespace std;
 
 class Nave {
 
-	vector<Sala> Salas;
-	vector<Tripulante> Tripulacao;
+	vector<Sala*> Salas;
 
 public:
-
-	void adicionaSala(Sala nova) { Salas.push_back(nova); };
 
 };
 

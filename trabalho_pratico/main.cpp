@@ -1,5 +1,11 @@
 #include <iostream>
 #include "consola.h"
+#include "Nave.h"
+#include "Caracteristica.h"
+#include "Sala.h"
+#include "Propulsor.h"
+#include "Membro.h"
+#include "Ponte.h"
 
 using namespace std;
 
@@ -99,6 +105,20 @@ void salasFixas(Consola &c) {
 	cout << "Ponte";
 }
 
+void turno() {
+
+	//Caracteristica::TrataInicioTurno();
+
+	//Ordens, mover tripulantes entre salas caso assim se deseje.
+
+	//Caracteristica::TrataFinalTurno();
+
+	//Eventos, por exemplo a nave ser danificada por atravessar campo de  asteroides
+}
+
+//Definição de Variáveis Estáticas
+int Sala::total = 0;
+
 void main() {
 
 	Consola c;
@@ -106,14 +126,13 @@ void main() {
 	constroiNave(c);
 	salasFixas(c);
 
-	c.gotoxy(10, 45);
-	cout << "linha de escrita" << endl;
+	c.gotoxy(0, 45);
 
-	//Nave nave;
+	Propulsor a;
 
-	//for (int i = 0; i < 12; i++) {
-	//	Sala *a = new Sala("cenas");
-	//	nave.adicionaSala(*a);
-	//}
+	Membro b;
 
+	a.addUnidade(new Membro(b));
+
+	c.getch();
 }

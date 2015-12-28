@@ -3,7 +3,7 @@
 
 #include "Unidade.h"
 
-class Tripulante abstract: Unidade{
+class Tripulante abstract:public Unidade{
 	
 };
 

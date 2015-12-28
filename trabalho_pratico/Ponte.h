@@ -5,7 +5,10 @@
 
 class Ponte:Sala{
 
+public:
+	Ponte() {};
 
+	bool operadada();
 };
 
 #endif

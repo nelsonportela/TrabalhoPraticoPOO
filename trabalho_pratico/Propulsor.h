@@ -3,9 +3,10 @@
 
 #include "Sala.h"
 
-class Propulsor:Sala {
+class Propulsor:public Sala {
 
-
+public:
+	Propulsor();
 };
 
 #endif

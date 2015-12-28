@@ -9,9 +9,10 @@ using namespace std;
 
 class Unidade abstract{
 	int pv;
+	vector<Caracteristica*> Caracteristicas;
 public: 
-	vector<Caracteristica>Caracteristicas;
-
+	
+	bool addCaracteristica(Caracteristica * caracteristica);
 };
 
 #endif

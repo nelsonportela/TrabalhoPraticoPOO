@@ -3,7 +3,7 @@
 
 #include "Sala.h"
 
-class SalaMaquinas :Sala {
+class SalaMaquinas :public Sala {
 
 
 };

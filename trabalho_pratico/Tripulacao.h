@@ -3,7 +3,7 @@
 
 #include "Caracteristica.h"
 
-class Tripulacao :Caracteristica {
+class Tripulacao :public Caracteristica {
 
 
 };

@@ -5,7 +5,8 @@
 
 class ControloEscudo:Sala {
 
-
+public:
+	ControloEscudo(Nave *nave, string n = "Controlo de Escudo");
 };
 
 #endif

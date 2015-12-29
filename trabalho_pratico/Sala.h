@@ -1,19 +1,27 @@
 #ifndef SALA_H
 #define SALA_H
 
-#include "Unidade.h"
+
 #include <vector>
+
+class Unidade;
+class Nave;
+
+using namespace std;
 
 class Sala abstract{
 
 	int id;
 	int integridade;
 	int oxigenio;
-	static int total;
+	string nome;
+	Nave *nave;
 	vector <Unidade*> unidades;
 
+	static int total;
+	
 public:
-	Sala();
+	Sala(Nave * nave, string n);
 
 	static int quantasSalas() { return total; }
 

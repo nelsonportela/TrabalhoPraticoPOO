@@ -3,9 +3,10 @@
 
 #include "Sala.h"
 
-class SuporteVida:Sala {
+class SuporteVida:public Sala {
 
-
+public:
+	SuporteVida(Nave *nave, string n = "Suporte de Vida");
 };
 
 #endif

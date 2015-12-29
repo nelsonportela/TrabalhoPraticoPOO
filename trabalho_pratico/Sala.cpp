@@ -1,13 +1,17 @@
 #include "Sala.h"
+#include "Nave.h"
 
 
-Sala::Sala() {
+Sala::Sala(Nave * nave, string n) {
 	total++;
-	id = total;
-	integridade = 100;
-	oxigenio = 100;
-}
+	this->id = total;
+	this->integridade = 100;
+	this->oxigenio = 100;
+	this->nome = n;
+	this->nave = nave;
 
+	nave->addSala(this);
+};
 
 void Sala::setIntegridade(int i){
 	if (integridade + i <= 100) {
@@ -16,7 +20,7 @@ void Sala::setIntegridade(int i){
 	else {
 		integridade = 100;
 	}
-}
+};
 
 void Sala::setOxigenio(int o) {
 	if (oxigenio + o <= 100) {
@@ -25,7 +29,7 @@ void Sala::setOxigenio(int o) {
 	else {
 		oxigenio = 100;
 	}
-}
+};
 
 bool Sala::addUnidade(Unidade * unidade) {
 	if (unidade == nullptr) {
@@ -34,4 +38,4 @@ bool Sala::addUnidade(Unidade * unidade) {
 
 	unidades.push_back(unidade);
 	return true;
-}
+};

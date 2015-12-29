@@ -1,6 +1,3 @@
 #include "Ponte.h"
 
-bool Ponte::operadada()
-{
-	return false;
-}
+Ponte::Ponte(Nave *nave, string n) :Sala(nave, n) {}

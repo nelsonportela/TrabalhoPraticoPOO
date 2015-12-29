@@ -1,3 +1,3 @@
 #include "Propulsor.h"
 
-Propulsor::Propulsor() {}
+Propulsor::Propulsor(Nave *nave, string n):Sala(nave, n) {}

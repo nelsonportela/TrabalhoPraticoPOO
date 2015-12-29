@@ -13,7 +13,8 @@ class Nave {
 	vector<Sala*> Salas;
 
 public:
-
+	Nave() {};
+	bool addSala(Sala* sala);
 };
 
 #endif

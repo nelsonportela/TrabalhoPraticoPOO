@@ -1,6 +1,6 @@
 #include "Caracteristica.h"
 
-Caracteristica::Caracteristica(Unidade * umaUnidade)
-{
-	this->unidade = umaUnidade;
-}
+Caracteristica::Caracteristica(Unidade * u, string nome) {
+	this->unidade = u;
+	this->nome;
+};

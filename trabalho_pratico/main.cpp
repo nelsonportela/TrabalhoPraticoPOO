@@ -128,11 +128,15 @@ void main() {
 
 	c.gotoxy(0, 45);
 
-	Propulsor a;
+//-----------------------------------------TESTES---------------------------
 
-	Membro b;
+	Nave *nave = new Nave;
 
-	a.addUnidade(new Membro(b));
+	Sala * propulsor = new Propulsor(nave);
+
+	Unidade * membro = new Membro(propulsor);
+
+	//cout << membro->getAsString();
 
 	c.getch();
 }

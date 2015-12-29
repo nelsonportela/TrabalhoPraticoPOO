@@ -3,12 +3,10 @@
 
 #include "Sala.h"
 
-class Ponte:Sala{
+class Ponte :public Sala {
 
 public:
-	Ponte() {};
-
-	bool operadada();
+	Ponte(Nave *nave, string n = "Ponte");
 };
 
 #endif

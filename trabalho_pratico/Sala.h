@@ -34,6 +34,8 @@ public:
 	void setOxigenio(int o);
 
 	bool addUnidade(Unidade * unidade);
+
+	vector <Unidade*> getVectorUnidades() { return unidades; }
 };
 
 #endif

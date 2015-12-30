@@ -31,6 +31,15 @@
     <Filter Include="Header Files\Unidades\Xenomorfo">
       <UniqueIdentifier>{61df39f0-10ba-4751-8ccb-e5155ed94207}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Salas">
+      <UniqueIdentifier>{3289c6e3-a759-4abc-9232-92887f24f44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Caracteristicas">
+      <UniqueIdentifier>{bbc47a81-e6d2-4ad7-ba65-b4d686eb057e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unidades">
+      <UniqueIdentifier>{c7fea0c8-a876-4bb4-87dc-3f177f218e1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Nave.h">
@@ -88,9 +97,6 @@
       <Filter>Header Files\Salas</Filter>
     </ClInclude>
     <ClInclude Include="SalaMaquinas.h">
-      <Filter>Header Files\Salas</Filter>
-    </ClInclude>
-    <ClInclude Include="SistemaSegurancaInterna.h">
       <Filter>Header Files\Salas</Filter>
     </ClInclude>
     <ClInclude Include="SuporteVida.h">
@@ -177,54 +183,81 @@
     <ClInclude Include="Xenomorfo.h">
       <Filter>Header Files\Unidades\Xenomorfo</Filter>
     </ClInclude>
+    <ClInclude Include="SistemaSegurancaInterno.h">
+      <Filter>Header Files\Salas</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sala.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Consola.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Caracteristica.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Nave.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Propulsor.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="AlojamentoCapitao.cpp">
+      <Filter>Source Files\Salas</Filter>
     </ClCompile>
-    <ClCompile Include="Ponte.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Unidade.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Operador.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Membro.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Tripulante.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SuporteVida.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ControloEscudo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SalaMaquinas.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="AutoReparador.cpp">
+      <Filter>Source Files\Salas</Filter>
     </ClCompile>
     <ClCompile Include="Beliches.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="ControloEscudo.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="Enfermaria.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="OficinaRobotica.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="Ponte.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="Propulsor.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="RaioLaser.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="Sala.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="SalaArmas.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="SalaMaquinas.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaSegurancaInterno.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="SuporteVida.cpp">
+      <Filter>Source Files\Salas</Filter>
+    </ClCompile>
+    <ClCompile Include="Caracteristica.cpp">
+      <Filter>Source Files\Caracteristicas</Filter>
+    </ClCompile>
+    <ClCompile Include="Operador.cpp">
+      <Filter>Source Files\Caracteristicas</Filter>
     </ClCompile>
     <ClCompile Include="Respira.cpp">
+      <Filter>Source Files\Caracteristicas</Filter>
+    </ClCompile>
+    <ClCompile Include="Tripulante.cpp">
+      <Filter>Source Files\Caracteristicas</Filter>
+    </ClCompile>
+    <ClCompile Include="Membro.cpp">
+      <Filter>Source Files\Unidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Unidade.cpp">
+      <Filter>Source Files\Unidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

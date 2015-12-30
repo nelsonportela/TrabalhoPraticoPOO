@@ -3,9 +3,10 @@
 
 #include "Sala.h"
 
-class AutoReparador:Sala {
+class AutoReparador:public Sala {
 
-
+public:
+	AutoReparador(Nave *nave, string n = "Auto-reparador");
 };
 
 #endif

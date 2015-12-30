@@ -8,8 +8,6 @@ class Tripulante abstract:public Unidade{
 	string tipo;
 public:
 	Tripulante(Sala *sala, int p);
-
-	//virtual string getAsString()const = 0;
 };
 
 #endif

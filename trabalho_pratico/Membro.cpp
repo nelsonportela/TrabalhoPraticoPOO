@@ -1,14 +1,8 @@
 #include "Membro.h"
 #include "Operador.h"
-#include <sstream>
+#include "Respira.h"
 
 Membro::Membro(Sala *s, int p, string n):Tripulante(s,p){
 	this->nome = n;
-	this->addCaracteristica(new Operador(this));
+	this->addCaracteristica(new Respira(this));
 };
-
-string Membro::getAsString()const {
-	ostringstream oss;
-	oss << "\nNome: " << nome << endl;
-	return oss.str();
-}

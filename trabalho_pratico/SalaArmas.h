@@ -5,7 +5,8 @@
 
 class SalaArmas :Sala {
 
-
+public:
+	SalaArmas(Nave *nave, string n = "Sala de Armas");
 };
 
 #endif

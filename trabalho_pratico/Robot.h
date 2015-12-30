@@ -3,9 +3,11 @@
 
 #include "Tripulante.h"
 
-class Robot :Tripulante {
+class Robot :public Tripulante {
 
-
+	string nome;
+public:
+	Robot(Sala *s, int p = 5, string n = "Robot");
 };
 
 #endif

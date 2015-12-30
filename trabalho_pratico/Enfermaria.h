@@ -5,7 +5,8 @@
 
 class Enfermaria :Sala {
 
-
+public:
+	Enfermaria(Nave *nave, string n = "Enfermaria");
 };
 
 #endif

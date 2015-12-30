@@ -7,7 +7,8 @@
 class Operador :public Caracteristica {
 	string nome;
 public:
-	Operador(Unidade *unidade, string nome="Operador"):Caracteristica(unidade, nome) {};
+	Operador(Unidade *unidade, string n = "Operador");
+	bool executa();
 };
 
 #endif

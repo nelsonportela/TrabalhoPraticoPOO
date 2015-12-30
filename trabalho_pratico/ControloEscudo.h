@@ -3,7 +3,7 @@
 
 #include "Sala.h"
 
-class ControloEscudo:Sala {
+class ControloEscudo:public Sala {
 
 public:
 	ControloEscudo(Nave *nave, string n = "Controlo de Escudo");

@@ -182,7 +182,7 @@
     <ClInclude Include="Sala.h" />
     <ClInclude Include="SalaArmas.h" />
     <ClInclude Include="SalaMaquinas.h" />
-    <ClInclude Include="SistemaSegurancaInterna.h" />
+    <ClInclude Include="SistemaSegurancaInterno.h" />
     <ClInclude Include="SuporteVida.h" />
     <ClInclude Include="Toxico.h" />
     <ClInclude Include="Tripulacao.h" />
@@ -192,19 +192,27 @@
     <ClInclude Include="Xenomorfo_c.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AlojamentoCapitao.cpp" />
+    <ClCompile Include="AutoReparador.cpp" />
     <ClCompile Include="Beliches.cpp" />
     <ClCompile Include="Caracteristica.cpp" />
     <ClCompile Include="Consola.cpp" />
     <ClCompile Include="ControloEscudo.cpp" />
+    <ClCompile Include="Enfermaria.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Membro.cpp" />
     <ClCompile Include="Nave.cpp" />
+    <ClCompile Include="OficinaRobotica.cpp" />
     <ClCompile Include="Operador.cpp" />
     <ClCompile Include="Ponte.cpp" />
     <ClCompile Include="Propulsor.cpp" />
+    <ClCompile Include="RaioLaser.cpp" />
     <ClCompile Include="Respira.cpp" />
+    <ClCompile Include="Robot.cpp" />
     <ClCompile Include="Sala.cpp" />
+    <ClCompile Include="SalaArmas.cpp" />
     <ClCompile Include="SalaMaquinas.cpp" />
+    <ClCompile Include="SistemaSegurancaInterno.cpp" />
     <ClCompile Include="SuporteVida.cpp" />
     <ClCompile Include="Tripulante.cpp" />
     <ClCompile Include="Unidade.cpp" />

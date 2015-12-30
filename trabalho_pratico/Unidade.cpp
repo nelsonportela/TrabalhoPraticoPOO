@@ -3,6 +3,9 @@
 
 Unidade::Unidade(Sala *sala, int p)
 {
+	id = static_cast<char>(letter + total);
+	total++;
+
 	this->pv = p;
 	this->sala = sala;
 
@@ -22,18 +25,3 @@ bool Unidade::addCaracteristica(Caracteristica * caracteristica)
 void Unidade::setPV(int pv) {
 	this->pv = pv;
 };
-
-//bool Unidade::addSala(Sala * s)
-//{
-//	if (s == nullptr) {
-//		return false;
-//	}
-//	this->sala = s;
-//	return true;
-//}
-
-//string Unidade::getAsString()const {
-//	ostringstream oss;
-//	oss << "\nNome: " << nome << endl;
-//	return oss.str();
-//}

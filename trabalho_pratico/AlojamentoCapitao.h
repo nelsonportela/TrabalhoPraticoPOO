@@ -3,9 +3,10 @@
 
 #include "Sala.h"
 
-class AlojamentoCapitao :Sala {
+class AlojamentoCapitao :public Sala {
 
-
+public:
+	AlojamentoCapitao(Nave *nave, string n = "Alojamentos do Capitao");
 };
 
 #endif

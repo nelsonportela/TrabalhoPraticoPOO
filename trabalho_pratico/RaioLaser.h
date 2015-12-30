@@ -5,7 +5,8 @@
 
 class RaioLaser :Sala {
 
-
+public:
+	RaioLaser(Nave *nave, string n = "Raio Laser");
 };
 
 #endif
